@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="pt-BR" class="h-100">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MAXPREMIO</title>
+
+    <link rel="icon" type="image/x-icon" href="https://maxpremio.com.br/images/icons/mipmap-hdpi/ic_launcher_round.png">
+
+    <!-- manifest meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://maxpremio.com.br/images/icons/mipmap-xxxhdpi/ic_launcher_round.png"
+        sizes="192x192">
+    <link rel="icon" type="image/x-icon" href="https://maxpremio.com.br/images/icons/mipmap-hdpi/ic_launcher_round.png">
+
+    <!-- Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="https://maxpremio.com.br/template_mobile/css/template.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxpremio.com.br/css/style_login.css">
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=djrGdavcE4JPIzP6xK7IKLzDAfp3XlCBsdXRxocd6LVeqy1Yw-m0OaxSz2nrmhkr0ht77TLERxbP8QiRCE6q9Q" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYXhwcmVtaW8uY29tLmJyL2tpdC8xMC9sb2dpbg"/><script src='https://www.google.com/recaptcha/api.js?render=6LfQXkghAAAAAPg0K_DbLNP572K_4HLknZ2XdL2g'></script>
+
+</head>
+
+<body class="body-scroll d-flex flex-column h-100 menu-overlay">
+    <!-- screen loader -->
+    <div class="container-fluid h-100 loader-display">
+        <div class="row h-100">
+            <div class="align-self-center col">
+                <div class="logo-loading">
+                    <div class="icon icon-100 mb-4 rounded-circle">
+                        <img src="/images/icons/mipmap-xxxhdpi/ic_launcher_round.png" alt="" class="w-100">
+                    </div>
+                    <h4 class="text-default">MAXPREMIO</h4>
+                    <p class="text-secondary">Carregando...</p>
+                    <div class="loader-ellipsis">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0 main has-footer">
+        <div class="container h-100 text-white">
+            <div class="row h-100">
+                <div class="col-12 align-self-center mb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-11 col-sm-7 col-md-6 col-lg-5 col-xl-4">
+                            <form id="sign_in" action="https://maxpremio.com.br/kit/login" method="POST">
+                                <input type="hidden" name="_token" value="CD4Alh7vPrnaVfDNOL7WJFCRMlXFXkriqGkERCKZ">                                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-63ec0967980bf">
+
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfQXkghAAAAAPg0K_DbLNP572K_4HLknZ2XdL2g', {action: 'login'}).then(function(token) {
+            document.getElementById('g-recaptcha-response-63ec0967980bf').value = token;
+
+            
+        });
+    });
+    </script>
+
+                                                                <h2 class="font-weight-normal mb-5">Algo Parecido</h2>
+                                                                <div class="form-group float-label position-relative">
+                                    <input type="hidden" name="id" value="10">
+                                    <input type="number" class="form-control text-white" name="codigo_acesso"
+                                        id="input-codigo-acesso" required>
+                                    <label class="form-control-label text-white">Código de Acesso</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- footer-->
+    <div class="footer no-bg-shadow py-3">
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <button class="btn btn-default rounded btn-login" type="submit" form="sign_in">LOGAR</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Required jquery and libraries -->
+    <script src="https://maxpremio.com.br/template_mobile/js/jquery-3.3.1.min.js"></script>
+    <script src="https://maxpremio.com.br/template_mobile/js/popper.min.js"></script>
+    <script src="https://maxpremio.com.br/template_mobile/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- cookie js -->
+    <script src="https://maxpremio.com.br/template_mobile/js/jquery.cookie.js"></script>
+
+    <!-- Customized jquery file  -->
+    <script src="https://maxpremio.com.br/template_mobile/js/main.js"></script>
+
+
+    <!-- page level custom script -->
+    <script src="https://maxpremio.com.br/template_mobile/js/waves.min.js"></script>
+    <script src="https://maxpremio.com.br/template_mobile/js/jquery.inputmask.bundle.js"></script>
+    <script src="https://maxpremio.com.br/template_mobile/js/socket.io.js"></script>
+    <script src="https://maxpremio.com.br/js/kit_login.js"></script>
+
+</body>
+
+</html>
