@@ -142,7 +142,10 @@ body {
   justify-content:space-around;
   margin: 0 0;}
 
- .linkmaterial {color:white;}
+ .linkmaterial {color:white;
+               style:none;
+                text-align:center;
+               }
 
 
 
